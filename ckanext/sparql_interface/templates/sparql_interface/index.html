@@ -24,7 +24,7 @@
 
 {% block breadcrumb_content %}
 
-<li class="active">{{ _('Punto SPARQL') }}</li>
+<li class="active"><a href="{{ h.url_for('sparql_interface.index') }}" title="{{ _('Catalog endpoints') }}">{{ _('Punto SPARQL') }}</a></li>
 
 {% endblock %}
 
@@ -42,11 +42,11 @@
         <label class="control-label" for="field-sparql-server">{{ _('Dirección base del punto SPARQL') }}</label>
         <div class="controls">
             <input id="field-sparql-server" type="text" name="sparql-server" value="{{h.sparql_endpoint_url()}}"
-                placeholder="{{ _('Añade la URL del servicio SPARQL. Por ejempo:') }} {{h.sparql_endpoint_url()}}">
+                placeholder="{{ _('Añade la URL del servicio SPARQL. Por ejemplo:') }} {{h.sparql_endpoint_url()}}">
         </div>
     </div>
 
-    <br><br>
+<br><br>
 
     <div id="test_sparql" class="sparql_hideme"></div>
 

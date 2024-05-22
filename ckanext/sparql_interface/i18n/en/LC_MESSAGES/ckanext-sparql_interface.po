@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ckanext/sparql_interface/templates/sparql_interface/index.html:8
 #: ckanext/sparql_interface/templates/sparql_interface/index.html:34
@@ -38,7 +38,7 @@ msgstr "SPARQL Endpoint"
 
 #: ckanext/sparql_interface/templates/sparql_interface/index.html:47
 #: ckanext/sparql_interface/templates/sparql_interface/index.html:49
-msgid "Añade la URL del servicio SPARQL. Por ejempo:"
+msgid "Añade la URL del servicio SPARQL. Por ejemplo:"
 msgstr "Add the SPARQL service URL. For Instance:"
 
 #: ckanext/sparql_interface/templates/sparql_interface/index.html:52
