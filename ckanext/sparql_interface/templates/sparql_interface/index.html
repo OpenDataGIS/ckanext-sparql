@@ -56,7 +56,9 @@
     <textarea id="sparql_code" name="sparql_code" resize="both">
 #{% trans %}Añada aquí los prefijos para otros vocabularios que pudieran necesitarse{% endtrans %}
 #PREFIX othervocab: <http://...... 
-
+PREFIX plinian:<https://datos.iepnb.es/def/sector-publico/medio-ambiente/pliniancore#>
+PREFIX darwin: <http://rs.tdwg.org/dwc/terms/>
+       
 SELECT DISTINCT *
 WHERE { 
     ?TaxonRecord plinian:hasHierarchy ?Taxon . 
